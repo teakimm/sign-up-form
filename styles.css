@@ -1,0 +1,65 @@
+@font-face {
+  font-family: odin;
+  src: url(./fonts/Norse-Bold.otf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a {
+  color: white;
+}
+.content {
+  display: flex;
+}
+.image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 3;
+  background-image: url("./images/halie-west-leaf.jpg");
+  min-height: 100vh;
+  background-size: cover;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.35);
+  font-family: odin;
+  color: white;
+  font-size: 7rem;
+  margin-top: 13rem;
+}
+.odin-logo {
+  padding: 1rem;
+  max-height: 20vh;
+}
+.credit {
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+.form-section {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+.header {
+  flex: 3;
+  background-color: #f9fafc;
+  padding: 3rem;
+  padding-top: 10rem;
+  padding-right: 35%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.form {
+  flex: 4;
+  background-color: #fefeff;
+}
+.footer {
+  background-color: #f9fafc;
+  flex: 2;
+}
