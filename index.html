@@ -14,7 +14,7 @@
         <img src="./images/odin-lined.png" alt="odin logo" class="odin-logo">
         odin
       </div>
-      <div class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank">Halie West</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a> </div>
+      <div class="credit">Photo by <a class="link1" href="https://unsplash.com/@haliewestphoto" target="_blank">Halie West</a> on <a class="link1" href="https://unsplash.com" target="_blank">Unsplash</a> </div>
     </div>
     <div class="form-section">
       <div class="header">
@@ -23,10 +23,45 @@
         <br>
         <p>You <em>know</em> you want to.</p>
       </div>
-      <div class="form">
-        test
+      <div class="form-container">
+        <p>Let's do this!</p>
+        <form id="user-info">
+          <div class="inputs">
+            <div>
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div>
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" name="last-name" required>
+            </div>
+          </div>
+          <div class="inputs">
+            <div>
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="text" id="phone-number" name="phone-number" required>
+            </div>
+          </div>
+          <div class="inputs">
+            <div>
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+          </div>
+        </form>
       </div>
-      <div class="footer">blah</div>
+      <div class="footer">
+        <button type="submit" form="user-info">Create Account</button>
+        <p>Already have an account? <a class="link2" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Log in</a></p>
+      </div>
     </div>
 
   </div>

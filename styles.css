@@ -7,7 +7,7 @@
   padding: 0;
   font-family: sans-serif;
 }
-a {
+.link1 {
   color: white;
 }
 .content {
@@ -47,7 +47,7 @@ a {
   flex: 5;
 }
 .header {
-  flex: 3;
+  flex: 1;
   background-color: #f9fafc;
   padding: 3rem;
   padding-top: 10rem;
@@ -55,11 +55,71 @@ a {
   font-size: 1.5rem;
   font-weight: bold;
 }
-.form {
+.form-container {
+  position: relative;
   flex: 4;
-  background-color: #fefeff;
+  box-shadow: 0 5px 5px 4px rgb(0 0 0 / 10%);
 }
+.form-container p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.inputs {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  display:flex;
+  gap: 4rem;
+}
+
+input,label {
+  display: block;
+}
+label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08rem;
+}
+input {
+  height: 1.5rem;
+  width: 15rem;
+  border: 0.12rem solid #E5E7EB;
+  border-radius: 0.2rem;
+
+}
+
 .footer {
   background-color: #f9fafc;
   flex: 2;
+}
+button {
+  background-color: #596D48;
+  width: 12rem;
+  height: 3rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+button:hover {
+  background-color: #4b583e;
+}
+
+button:active {
+  background-color: #4b583e;
+  transform: translateY(2px);
+}
+.footer p {
+  margin-top: 1.5rem;
+  margin-left: 4rem;
+  font-weight: bold;
+}
+.link2 {
+  color: #596D48;
+  text-decoration: none;
 }
